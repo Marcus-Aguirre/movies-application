@@ -37,7 +37,7 @@ module.exports = {
 
   devServer: {
     contentBase: path.join(__dirname, 'public'),
-    port: 1313,
+    port: 1314,
     compress: true,
     watchContentBase: true,
     // send requests that start with "/api" to our api server

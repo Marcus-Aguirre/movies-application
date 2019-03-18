@@ -3,15 +3,50 @@
 <head>
     <meta charset="UTF-8" />
     <title>My Application</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
 
-    <div class="container">
-        <h1>Hello There!</h1>
-        <p>To get started, edit <code>src/index.js</code>.</p>
-    </div>
+<div class="container">
 
-    <script src="./main.js"></script>
+    <h1 class="hide">SPACE JAM with a Z</h1>
+    <h3 class="hide">MOVIES</h3>
+
+    <button class="hide" id="add">ADD</button>
+    <button class="hide" id="edit">EDIT</button>
+    <input type="text" class="hide idToEdit" id="idToEdit">
+    <button class="hide" id="delete">DELETE</button>
+
+    <input type="text" class="hide" id="addTitle" placeholder="TITLE">
+    <input type="text" class="hide" id="addGenre" placeholder="GENRE">
+    <input type="text" class="hide" id="addRating" placeholder="RATING">
+
+</div>
+
+<div class="container clean">
+
+
+    <p id="image">
+
+        <img src="https://i.gifer.com/SjyG.gif" alt="loading">
+
+    </p>
+    <h4>LOADING</h4>
+
+
+
+</div>
+
+
+<script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script
+        src="http://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+<script src="./main.js"></script>
 </body>
 </html>
